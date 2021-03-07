@@ -9,6 +9,10 @@
     "prepublishOnly": "npm run build",
     "fmt": "prettier --write **/*.{ts,json,md}"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinshin86/img2amp-img.git"
+  },
   "keywords": [
     "amp-img",
     "amp",
@@ -18,6 +22,10 @@
   ],
   "author": "shinshin86 <shinshin86npm@gmail.com> (https://github.com/shinshin86)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shinshin86/img2amp-img/issues"
+  },
+  "homepage": "https://github.com/shinshin86/img2amp-img#readme",
   "engines": {
     "node": ">= 12.9"
   },

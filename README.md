@@ -1,5 +1,7 @@
 # img2amp-img
 
+[![Test](https://github.com/shinshin86/img2amp-img/actions/workflows/test.yml/badge.svg)](https://github.com/shinshin86/img2amp-img/actions/workflows/test.yml)
+
 img to amp-img
 
 ```html

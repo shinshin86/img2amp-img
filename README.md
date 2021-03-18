@@ -57,6 +57,8 @@ Output
 
 Can use the options corresponding to the layout attribute.
 
+If no option is specified, `responsive` will be selected.
+
 ```
 'responsive'
 'fill'

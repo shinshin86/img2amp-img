@@ -69,7 +69,7 @@ Can use the options corresponding to the layout attribute.
 
 For more information about the option, please refer to the official AMP website.
 
-[<amp-img> - amp.dev](https://amp.dev/documentation/components/amp-img/)
+[\<amp-img\> - amp.dev](https://amp.dev/documentation/components/amp-img/)
 
 ## Licence
 

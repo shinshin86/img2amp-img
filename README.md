@@ -1,3 +1,5 @@
+![img2amp-img - logo](https://user-images.githubusercontent.com/8216064/111606270-63cf7680-881a-11eb-9ade-63670e7ea851.png)
+
 # img2amp-img
 
 [![Test](https://github.com/shinshin86/img2amp-img/actions/workflows/test.yml/badge.svg)](https://github.com/shinshin86/img2amp-img/actions/workflows/test.yml)

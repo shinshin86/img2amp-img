@@ -53,6 +53,30 @@ Output
 ></amp-img>
 ```
 
-## Still in alpha ⚠️
+## Option
 
-<font color="red">This project is open to the public, but it is still in alpha.</font>
+Can use the options corresponding to the layout attribute.
+
+If no option is specified, `responsive` will be selected.
+
+```
+'responsive'
+'fill'
+'fixed'
+'fixed-height'
+'flex-item'
+'intrinsic'
+'nodisplay'
+```
+
+For more information about the option, please refer to the official AMP website.
+
+[\<amp-img\> - amp.dev](https://amp.dev/documentation/components/amp-img/)
+
+## Licence
+
+[MIT](https://github.com/shinshin86/img2amp-img/blob/main/LICENSE)
+
+## Author
+
+[Yuki Shindo](https://shinshin86.com/en)

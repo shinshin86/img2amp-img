@@ -28,18 +28,15 @@ interface ImageObj {
   layout: Layout;
 }
 
+interface Dimensions {
+  width: string;
+  height: string;
+}
+
 const convertToAmpImg = async (imageObj: ImageObj): Promise<string> => {
   const dimensions = await requestImageSize(imageObj.url);
 
-  const width = imageObj.layout === 'fixed-height' ? 'auto' : dimensions.width;
-
-  return `<amp-img
-  alt="${imageObj.alt}"
-  src="${imageObj.url}"
-  width="${width}"
-  height="${dimensions.height}"
-  layout="${imageObj.layout}"
-></amp-img>`;
+  return getAmpImgTag(imageObj, dimensions);
 };
 
 const convertToAmpImgFromLocalImage = async (
@@ -47,6 +44,10 @@ const convertToAmpImgFromLocalImage = async (
 ): Promise<string> => {
   const dimensions = await sizeOf(`${ps.cwd()}/${imageObj.url}`);
 
+  return getAmpImgTag(imageObj, dimensions);
+};
+
+const getAmpImgTag = (imageObj: ImageObj, dimensions: Dimensions): string => {
   const width = imageObj.layout === 'fixed-height' ? 'auto' : dimensions.width;
 
   return `<amp-img

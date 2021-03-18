@@ -1,6 +1,6 @@
 {
   "name": "img2amp-img",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "img to amp-img",
   "main": "dist/index.js",
   "scripts": {

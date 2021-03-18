@@ -77,4 +77,4 @@ For more information about the option, please refer to the official AMP website.
 
 ## Author
 
-[Yuki Shindo](https://shinshin86.com)
+[Yuki Shindo](https://shinshin86.com/en)
